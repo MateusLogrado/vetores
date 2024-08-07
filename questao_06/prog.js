@@ -33,9 +33,9 @@ function gravar(){
 }
 
 function calcular(){
-    total = 0
+    let total = []
     for(i=0;i<5;i++){
-        total += vetor[i] - vetor2[i]
+        total[i] = vetor[i] - vetor2[i]
     }
 
     resposta.innerHTML = "A subtração dos numero deu " + total
